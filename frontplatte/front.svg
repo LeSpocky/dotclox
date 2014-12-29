@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="Neues Dokument 1">
+   sodipodi:docname="front.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -29,13 +29,26 @@
      inkscape:cy="141.73228"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      units="mm"
      inkscape:window-width="1020"
      inkscape:window-height="537"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3004"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       units="in"
+       spacingx="0.4in"
+       spacingy="0.4in"
+       originx="0.175in"
+       originy="0.175in" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
