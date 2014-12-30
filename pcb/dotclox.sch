@@ -128,20 +128,20 @@ body 3.9 mm/JEDEC MS-012AA</description>
 &lt;li&gt;Available in 8-pin DIP or SOIC&lt;/li&gt;
 &lt;li&gt;Recognized by Underwriters Laboratory&lt;/li&gt;
 &lt;/ul&gt;</description>
-<pin name="X1" x="-12.7" y="5.08" length="short"/>
-<pin name="X2" x="-12.7" y="2.54" length="short"/>
-<pin name="VBAT" x="-12.7" y="-2.54" length="short" direction="pwr"/>
-<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
-<pin name="VCC" x="12.7" y="5.08" length="short" direction="pwr" rot="R180"/>
-<pin name="SQW/OUT" x="12.7" y="0" length="short" direction="out" rot="R180"/>
-<pin name="SCL" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="SDA" x="12.7" y="-5.08" length="short" rot="R180"/>
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.4064" layer="94"/>
-<text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="X1" x="-15.24" y="10.16" length="short" rot="R270"/>
+<pin name="X2" x="-7.62" y="10.16" length="short" rot="R270"/>
+<pin name="VBAT" x="17.78" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC" x="0" y="10.16" length="short" direction="pwr" rot="R270"/>
+<pin name="SQW/OUT" x="17.78" y="2.54" length="short" direction="out" function="clk" rot="R180"/>
+<pin name="SCL" x="-20.32" y="-2.54" length="short"/>
+<pin name="SDA" x="-20.32" y="-7.62" length="short"/>
+<wire x1="-17.78" y1="7.62" x2="15.24" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="-17.78" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="7.62" width="0.4064" layer="94"/>
+<text x="2.54" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-17.78" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
